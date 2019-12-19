@@ -11,9 +11,10 @@ $(document).ready(function() {
 
     });
 
-    function addNumbers(x,y){
+    function addNumbers(num1,num2){
+        var add=num1+num2;
       
-    $("#result_add").text(x+y);
+    $("#result-add").text(add);
 
     }
 
